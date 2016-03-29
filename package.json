@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "author": "syano",
   "description": "All will be Shift_JIS",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syano/Shift_JIS.git"
+  },
   "license": "MIT",
   "scripts": {
     "shift_jis": "cp -Rv [from path] [to path] && node ./task/shift_jis.js"
