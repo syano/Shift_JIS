@@ -1,0 +1,14 @@
+{
+  "name": "Shift_JIS Converter",
+  "version": "0.0.1",
+  "author": "syano",
+  "description": "All will be Shift_JIS",
+  "repository": "",
+  "license": "MIT",
+  "scripts": {
+    "shift_jis": "cp -Rv [from path] [to path] && node ./task/shift_jis.js"
+  },
+  "devDependencies": {
+    "fs-extra": "^0.26.7"
+  }
+}
